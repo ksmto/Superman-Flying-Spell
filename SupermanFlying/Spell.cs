@@ -10,7 +10,7 @@ public class Spell : SpellCastCharge {
 		base.UpdateCaster();
 		if (!spellCaster.isFiring) return;
 		Player.fallDamage = false;
-		spellCaster.ragdollHand.rb.AddForce(-spellCaster.ragdollHand.transform.right *
+		spellCaster?.ragdollHand?.rb?.AddForce(-spellCaster.ragdollHand.transform.right *
 		                                    (spellCaster.ragdollHand.GripPressed()
 			                                     ? flyingForce * boostForceMultiplier
 			                                     : flyingForce / boostForceMultiplier),
