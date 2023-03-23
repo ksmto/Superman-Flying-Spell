@@ -33,99 +33,293 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\0Harmony.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="chabuk.manikinmono">
-      <HintPath>..\..\_Dependencies\chabuk.manikinmono.dll</HintPath>
+    <Reference Include="netstandard">
+      <HintPath>..\..\_B&amp;S Dependencies\netstandard.dll</HintPath>
     </Reference>
-    <Reference Include="netstandard" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\_Dependencies\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Speech" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <Reference Include="Newtonsoft.Json.UnityConverters">
+      <HintPath>..\..\_B&amp;S Dependencies\Newtonsoft.Json.UnityConverters.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.UnityConverters.Addressables">
+      <HintPath>..\..\_B&amp;S Dependencies\Newtonsoft.Json.UnityConverters.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Speech">
+      <HintPath>..\..\_B&amp;S Dependencies\System.Speech.dll</HintPath>
+    </Reference>
     <Reference Include="ThunderRoad">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\ThunderRoad.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.EventLinker">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.EventLinker.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.Manikin">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.Manikin.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.MaterialInstance">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.MaterialInstance.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.PointCache">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.PointCache.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.Reflection">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.Reveal">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.Reveal.dll</HintPath>
+    </Reference>
+    <Reference Include="ThunderRoad.Utilities">
+      <HintPath>..\..\_B&amp;S Dependencies\ThunderRoad.Utilities.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Addressables">
-      <HintPath>..\..\_Dependencies\Unity.Addressables.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>..\..\_Dependencies\Unity.Collections.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\Unity.InputSystem.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs">
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.Jobs.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\Unity.ResourceManager.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AndroidJNIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ARModule">
-      <HintPath>..\..\_Dependencies\UnityEngine.ARModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.NVIDIAModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UIElementsNativeModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
-      <HintPath>D:\steam\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.VFXModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule">
-      <HintPath>..\..\_Dependencies\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.VirtualTexturingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\_Dependencies\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\_Dependencies\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>..\..\_B&amp;S Dependencies\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VoiceSDK.Dictation.Runtime">
+      <HintPath>..\..\_B&amp;S Dependencies\VoiceSDK.Dictation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="VoiceSDK.Runtime">
+      <HintPath>..\..\_B&amp;S Dependencies\VoiceSDK.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
