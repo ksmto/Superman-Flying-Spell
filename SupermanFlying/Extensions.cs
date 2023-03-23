@@ -178,7 +178,7 @@ namespace Extensions {
                                     Vector3 force,
                                     float? forceAdded = null,
                                     ForceMode forceMode = ForceMode.Impulse) {
-            foreach (var parts in creature?.ragdoll?.parts) parts?.physicBody.rigidBody?.AddForce(force * forceAdded ?? Vector3.zero, forceMode);
+            foreach (var parts in creature?.ragdoll?.parts) parts?.physicBody?.AddForce(force * forceAdded ?? Vector3.zero, forceMode);
         }
 
         public static void Destroy(this GameObject gameObject) => Destroy(gameObject);
@@ -215,7 +215,7 @@ namespace Extensions {
             item.data.SpawnAsync(newItem => {
                 newItem.transform.position = position;
                 newItem.transform.rotation = rotation;
-                newItem.physicBody.rigidBody.AddForce(forceDirection ?? Vector3.up * forceAdded ?? Vector3.zero, forceMode);
+                newItem.physicBody.AddForce(forceDirection ?? Vector3.up * forceAdded ?? Vector3.zero, forceMode);
             });
         }
 
@@ -254,7 +254,7 @@ namespace Extensions {
             }
         }
 
-        public static float VelocityDirection(this Item item, Vector3 direction) => Vector3.Dot(item.physicBody.rigidBody.velocity, direction);
+        public static float VelocityDirection(this Item item, Vector3 direction) => Vector3.Dot(item.physicBody.velocity, direction);
 
         public static Vector3 AboveFace(this Creature creature, float distance = 1.50f) =>
             creature.Head().transform.position + creature.Head().forwardDirection * distance;

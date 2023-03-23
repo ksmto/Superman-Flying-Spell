@@ -329,7 +329,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>copy /Y "F:\Scripts\SupermanFlying\SupermanFlying\bin\Debug\SupermanFlying.dll" "F:\SteamLibrary\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\Superman Flying Spell"
+copy /Y "F:\Scripts\SupermanFlying\SupermanFlying\bin\Debug\SupermanFlying.pdb" "F:\SteamLibrary\steamapps\common\Blade &amp; Sorcery\BladeAndSorcery_Data\StreamingAssets\Mods\Superman Flying Spell"</PostBuildEvent>
   </PropertyGroup>
 </Project>
