@@ -20,11 +20,11 @@ public class Spell : SpellCastCharge
             if (Player.currentCreature != null)
             {
                 Player.fallDamage = false;
-            }
 
-            if (spellCaster.isFiring)
-            {
-                spellCaster?.ragdollHand?.physicBody?.AddForce(-spellCaster.ragdollHand.transform.right * (spellCaster.ragdollHand.GripPressed() ? flyingForce * boostForceMultiplier : flyingForce / boostForceMultiplier), ForceMode.VelocityChange);
+                if (spellCaster.isFiring)
+                {
+                    spellCaster?.ragdollHand?.physicBody?.AddForce(-spellCaster.ragdollHand.transform.right * (spellCaster.ragdollHand.GripPressed() ? flyingForce * boostForceMultiplier : flyingForce / boostForceMultiplier), ForceMode.VelocityChange);
+                }
             }
         }
     }
