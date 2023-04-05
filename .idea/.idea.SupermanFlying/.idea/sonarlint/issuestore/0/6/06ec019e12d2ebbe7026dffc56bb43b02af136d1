@@ -1,0 +1,16 @@
+
+Zcsharpsquid:S3011’"6Make sure that this accessibility bypass is safe here.(†žËg8‘Ù¦ïô0
+jcsharpsquid:S1854â"@Remove this useless assignment to local variable 'coneCastHits'.(ÄÓÝøþÿÿÿÿ8‘Ù¦ïô0
+Mcsharpsquid:S3903à"(Move 'Direction' into a named namespace.(ý„Ÿ¼8‘Ù¦ïô0
+Mcsharpsquid:S3903ë"#Move 'Axis' into a named namespace.(Ù×ÜÖþÿÿÿÿ8’Ù¦ïô0
+Rcsharpsquid:S3903“"(Move 'Continuum' into a named namespace.(¬Ä¤™úÿÿÿÿ8’Ù¦ïô0
+\csharpsquid:S2190¼"2Add a way to break out of this method's recursion.(êì“üÿÿÿÿ8Û×Ã€ñ0
+~csharpsquid:S3267ˆ"TLoop should be simplified by calling Select(collider => collider.attachedRigidbody))(îì‚‘úÿÿÿÿ8’Ù¦ïô0
+~csharpsquid:S3267–"TLoop should be simplified by calling Select(collider => collider.attachedRigidbody))(œ±àÅÿÿÿÿÿ8“Ù¦ïô0
+_csharpsquid:S4136="6All 'GripPressed' method overloads should be adjacent.(–Ùñ­þÿÿÿÿ8Ç©¶áð0
+bcsharpsquid:S4136?">All 'AlternateUsePressed' method overloads should be adjacent.(Þõ¬·8Ç©¶áð0
+ecsharpsquid:S4136E"<All 'VelocityDirection' method overloads should be adjacent.(³Òƒÿÿÿÿÿ8Ç©¶áð0
+Ucsharpsquid:S1168ì"+Return an empty collection instead of null.(æ•öùÿÿÿÿ8—Ù¦ïô0
+icsharpsquid:S107Ä"@Method has 9 parameters, which is greater than the 7 authorized.(ç¶´¢ÿÿÿÿÿ8—Ù¦ïô0
+ecsharpsquid:S1751ì";Refactor the containing loop to do more than one iteration.(æ•öùÿÿÿÿ8—Ù¦ïô0
+`csharpsquid:S1751ï";Refactor the containing loop to do more than one iteration.(ä²ÿ¦8—Ù¦ïô0

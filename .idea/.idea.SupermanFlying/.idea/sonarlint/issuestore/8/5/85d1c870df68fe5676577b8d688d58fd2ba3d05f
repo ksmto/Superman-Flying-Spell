@@ -1,0 +1,11 @@
+
+mcsharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(ƒÒò‡şÿÿÿÿ8èÉ¦ïô0
+hcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(É·âÅ8éÉ¦ïô0
+gcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—å÷R8êÉ¦ïô0
+„csharpsquid:S2386"aUse an immutable collection or reduce the accessibility of the public static field 'ForceValues'.(—å÷R8êÉ¦ïô0
+qcsharpsquid:S2223
+"HChange the visibility of 'flyingForce' or make it 'const' or 'readonly'.(ƒÒò‡şÿÿÿÿ8êÉ¦ïô0
+ucsharpsquid:S2223"QChange the visibility of 'boostForceMultiplier' or make it 'const' or 'readonly'.(É·âÅ8êÉ¦ïô0
+kcsharpsquid:S2223"HChange the visibility of 'ForceValues' or make it 'const' or 'readonly'.(—å÷R8êÉ¦ïô0
+qcsharpsquid:S2696"HRemove this set, which updates a 'static' field from an instance method.(Ôâ‰¡üÿÿÿÿ8òÚ‹ñ0
