@@ -231,3 +231,4 @@ F:\Scripts\SupermanFlying\SupermanFlying\obj\Debug\SupermanFlying.dll
 F:\Scripts\SupermanFlying\SupermanFlying\obj\Debug\SupermanFlying.pdb
 F:\Scripts\SupermanFlying\SupermanFlying\bin\Debug\modio.UnityPlugin.dll
 F:\Scripts\SupermanFlying\SupermanFlying\bin\Debug\Unity.XR.PICO.dll
+F:\Scripts\SupermanFlying\SupermanFlying\bin\Debug\BHaptics.dll
